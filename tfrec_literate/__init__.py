@@ -1,16 +1,16 @@
-#import tensorflow as tf
+import tensorflow as tf
 #import cv2
 
-__version__ = "0.5.0"
+__version__ = "2.10.0"
 
 import importlib 
 
 _submodules = [
-        "reading",
-	"writing"
+        "read",
+	"write"
 ]
 
-lib_name = "tfrec_utils"
+lib_name = "tfrec_literate"
 
 __all__ = _submodules # add non-modules, such as clone, get_config, set_config, show_versions 
 
