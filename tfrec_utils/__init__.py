@@ -1,7 +1,7 @@
-#import tensorflow as tf
+import tensorflow as tf
 #import cv2
 
-__version__ = "0.5.0"
+__version__ = "0.2.10.0"
 
 import importlib 
 
