@@ -1,6 +1,6 @@
-## TFRecord-Utilities
+## TFRecord-Literate
 
-Utility functions for reading and writing TFRecord files with TF2.
+This repo provides utility functions for reading and writing TFRecord files with TensorFlow, aiming for TFRecord-literacy
 
 Dependencies: TensorFlow, opencv-python
 
@@ -8,9 +8,9 @@ Dependencies: TensorFlow, opencv-python
 
 #### command line:
 ```
-git clone https://github.com/vwhvpwvk/tfrec-utils.git
+git clone https://github.com/vwhvpwvk/tfrec-literate.git
 
-cd tfrec-utils
+cd tfrec-literate
 
 pip install -e .
 
@@ -21,10 +21,10 @@ pip install -e .
 ```
 python
 
->>>import tfrec_utils
+>>>import tfrec_literate as tfrec
 
->>>from tfrec_utils import reading
+>>>from tfrec_literate import read as tfread 
 
->>>from tfrec_utils import writing 
+>>>from tfrec_literate import write as tfwrite
 
 ```
