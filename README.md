@@ -1,17 +1,18 @@
-## Awesome pip template! 
+## TFRecord-Utilities
 
-This is a template for installing github repo through pip
+Utility functions for reading and writing TFRecord files with TF2.
 
+Dependencies: TensorFlow, opencv-python
 
 ## usage
 
 #### command line:
 ```
-git clone https://github.com/vwhvpwvk/awesome-pip-template.git
+git clone https://github.com/vwhvpwvk/tfrec-utils.git
 
-cd awesome-pip-template
+cd tfrec-utils
 
-pip install .
+pip install -e .
 
 ```
 
@@ -20,13 +21,10 @@ pip install .
 ```
 python
 
->>>import awesome_lib
+>>>import tfrec_utils
 
->>>from awesome_lib import awesome_submodule
+>>>from tfrec_utils import reading
 
->>>awesome_world = awesome_submodule.HelloWorld()
+>>>from tfrec_utils import writing 
 
->>>awesome_world("welcome!")
-
-Hello World! Awesome! welcome!
 ```

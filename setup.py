@@ -1,16 +1,15 @@
 import setuptools
 
 setuptools.setup(
-        name="awesome_lib", # library name will go here
-        version="1.0.0", # version info
-        author="awesome_author",
-        description="awesome_description",
+        name="tfrec-utils", # library name will go here
+        version="0.5.0", # version info
+        author="vwhvpwvk",
+        description="Utility functions for reading and writing TFRecords",
         packages=setuptools.find_packages(),
         install_requires=[
-            # whatever library and version 
-		# to specify version, use 1.2.*
-		# 1.*.*
-		# etc.
+            #'tensorflow',
+		#'opencv-python-headless',
+		#'tqdm'
             ]
 )
 
