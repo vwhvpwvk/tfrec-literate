@@ -7,7 +7,7 @@ setuptools.setup(
         description="Library for reading and writing TFRecords",
         packages=setuptools.find_packages(),
         install_requires=[
-            'tensorflow<2.13'#,
+                #'tensorflow<2.13'#,
 		#'opencv-python-headless',
 		#'tqdm'
             ]
